@@ -24,8 +24,11 @@ def tower_output() :
     else :
         print(f"{car_number} 차량이 존재하지 않습니다.")
 def tower_information() :
-    for i, car_number in enumerate(parking_tower) :
-        print(f"{i+1}층 : {car_number}")
+    if len(parking_tower) == 0 :
+        print("현재 입고된 차량이 없습니다.")
+    else :
+        for i, car_number in enumerate(parking_tower) :
+            print(f"{i+1}층 : {car_number}")
 def tower_exit() :
     print("프로그램을 종료합니다.")
     exit()
