@@ -33,12 +33,12 @@ def tower_exit() :
     print("프로그램을 종료합니다.")
     exit()
 def tower_menu() :
-    print("●" * 30)
+    print(" " * 30)
     print("1. 차량입고")
     print("2. 차량출고")
     print("3. 차량입고정보")
     print("4. 프로그램 종료")
-    print("●" * 30)
+    print(" " * 30)
 
 parking_tower = []
 while True :
