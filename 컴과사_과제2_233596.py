@@ -8,7 +8,7 @@ def tower_input() :
         else :
             print("4자리를 입력하세요.")
     if len(parking_tower) == 5 :
-        print("더 이상 차량을 입고할 수 없습니다.(최대 : 5대 / 현재 : 5대")
+        print("더 이상 차량을 입고할 수 없습니다.(최대 : 5대 / 현재 : 5대)")
     else :
         parking_tower.append(car_number)
 def tower_output() :
